@@ -1,5 +1,5 @@
-A = int(input())
-B = int(input())
-X = A + B
+a = int(input())
+b = int(input())
+x = a + b
 
-print("X =", X)
+print("X =", x)
