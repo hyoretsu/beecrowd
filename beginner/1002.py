@@ -1,5 +1,5 @@
 pi = 3.14159
 radius = float(input())
-circleArea = format(pi * (radius ** 2), ".4f")
+circleArea = pi * (radius ** 2)
 
-print("A={}".format(circleArea))
+print(f"A={circleArea:.4f}")

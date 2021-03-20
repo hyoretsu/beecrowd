@@ -1,5 +1,4 @@
 a = int(input())
 b = int(input())
-x = a * b
 
-print("PROD =", x)
+print(f"PROD = {a * b}")
