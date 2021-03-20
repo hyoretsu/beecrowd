@@ -1,0 +1,18 @@
+totalMoney = int(input())
+
+[banknotes100, remainder100] = divmod(totalMoney, 100)
+[banknotes50, remainder50] = divmod(remainder100, 50)
+[banknotes20, remainder20] = divmod(remainder50, 20)
+[banknotes10, remainder10] = divmod(remainder20, 10)
+[banknotes5, remainder5] = divmod(remainder10, 5)
+[banknotes2, remainder2] = divmod(remainder5, 2)
+[banknotes1, remainder1] = divmod(remainder2, 1)
+
+print(f"{totalMoney}")
+print(f"{banknotes100} nota(s) de R$ 100,00")
+print(f"{banknotes50} nota(s) de R$ 50,00")
+print(f"{banknotes20} nota(s) de R$ 20,00")
+print(f"{banknotes10} nota(s) de R$ 10,00")
+print(f"{banknotes5} nota(s) de R$ 5,00")
+print(f"{banknotes2} nota(s) de R$ 2,00")
+print(f"{banknotes1} nota(s) de R$ 1,00")
