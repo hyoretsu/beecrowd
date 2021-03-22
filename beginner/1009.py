@@ -1,4 +1,4 @@
-employeeName = input()
+_employeeName = input()
 fixedSalary = float(input())
 salesBonus = float(input())
 

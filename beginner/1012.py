@@ -1,4 +1,4 @@
-[a, b, c] = map(float, input().rsplit(" "))
+[a, b, c] = map(float, input().split())
 pi = 3.14159
 
 print(f"TRIANGULO: {(a * c) / 2:.3f}")
