@@ -8,7 +8,7 @@ totalMoney = int(input())
 [banknotes2, remainder] = divmod(remainder, 2)
 [banknotes1, _remainder] = divmod(remainder, 1)
 
-print(f"{totalMoney}")
+print(totalMoney)
 print(f"{banknotes100} nota(s) de R$ 100,00")
 print(f"{banknotes50} nota(s) de R$ 50,00")
 print(f"{banknotes20} nota(s) de R$ 20,00")

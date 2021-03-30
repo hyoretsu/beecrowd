@@ -16,4 +16,4 @@ months = [
     "December",
 ]
 
-print(f"{months[monthNumber]}")
+print(months[monthNumber])
